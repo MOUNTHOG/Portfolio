@@ -2,7 +2,15 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
 }
 
 body{
@@ -431,10 +439,12 @@ footer{
 
     .navbar{
         height: 7vh;
+        width: 100vw;
+        padding-right: 7vw;
     }
 
     .link-group{
-        width: 95vw;
+        width: 90vw;
     }
 
     .link a{
